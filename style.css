@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(
+    150deg,    rgb(133, 126, 226) 50%, rgb(123, 131, 235) 50%
+    );
+}
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.card{
+    padding-left: 70px;
+}
+.register{  
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+
+.full_name{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.email_text{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input_password_text{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.full_email1{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.full_email2{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.pass1{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.username{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.number{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.pass2{
+    width: 320px;
+    height: 40px;
+    box-shadow: 0  0 2px 0.5px black;
+}
+.gender{
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.radio{
+
+    width: 100px;
+    border: none;
+    
+}
+.radio{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.raido_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.add{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: blue; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-left: 190px;
+}
